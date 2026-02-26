@@ -1,11 +1,11 @@
-# BMPO: Bayesian Tensor Networks for Regression
+# BTNR: Bayesian Tensor Networks for Regression
 
 ## Project Overview
-BTN is a library for Bayesian Tensor Networks (BTN) designed for regression tasks. It leverages the `quimb` library for efficient tensor operations and provides a framework for running experiments with various tensor network architectures, including Bayesian Tensor Networks and Tensor Network Alternating Least Squares (TN-ALS).
+BTNR is a library for Bayesian Tensor Networks (BTN) designed for regression tasks. It leverages the `quimb` library for efficient tensor operations and provides a framework for running experiments with various tensor network architectures, including Bayesian Tensor Networks and Tensor Network Alternating Least Squares (TN-ALS).
 
 ## Project Structure
 ```
-BMPO/
+./
 ├── experiments/           # Experiment runners and configs
 │   ├── configs/          # JSON configuration files
 │   ├── run_grid_search_btn.py   # BTN grid search runner
