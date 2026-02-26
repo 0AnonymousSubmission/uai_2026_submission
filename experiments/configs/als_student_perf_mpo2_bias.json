@@ -1,0 +1,47 @@
+{
+  "experiment_name": "als_student_perf",
+  "dataset": "student_perf",
+  "task": "regression",
+  "parameter_grid": {
+    "model": [
+      "MPO2"
+    ],
+    "L": [
+      3,
+      4
+    ],
+    "bond_dim": [
+      6,
+      10,
+      14
+    ]
+  },
+  "fixed_params": {
+    "batch_size": 256,
+    "n_epochs": 50,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "init_strength": 0.01,
+    "seeds": [
+      42,
+      7,
+      123,
+      256,
+      999
+    ],
+    "warmup_epochs": 5,
+    "bond_prior_alpha": 1.0,
+    "decay": 1,
+    "added_bias": true
+  },
+  "tracker": {
+    "backend": "file",
+    "tracker_dir": "runs_init0.01_prior1.0_bias",
+    "aim_repo": ""
+  },
+  "output": {
+    "results_dir": "results_init0.01_prior1.0/als_student_perf_MPO2_bias",
+    "save_models": false,
+    "save_individual_runs": true
+  }
+}

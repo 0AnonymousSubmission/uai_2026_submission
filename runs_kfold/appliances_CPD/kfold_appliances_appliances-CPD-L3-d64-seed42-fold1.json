@@ -1,0 +1,227 @@
+{
+  "experiment_name": "kfold_appliances",
+  "run_name": "appliances-CPD-L3-d64-seed42-fold1",
+  "config": {
+    "params": {
+      "model": "CPD",
+      "L": 3,
+      "bond_dim": 64,
+      "init_strength": 0.1,
+      "bond_prior_alpha": 5.0,
+      "added_bias": true,
+      "n_epochs": 50,
+      "batch_size": 256,
+      "patience": 20,
+      "min_delta": 0.0001,
+      "warmup_epochs": 5,
+      "decay": 1.0
+    },
+    "fold": 1,
+    "seed": 42
+  },
+  "hparams": {
+    "seed": 42,
+    "fold": 1,
+    "dataset": "appliances",
+    "n_features": 28,
+    "n_train": 13420,
+    "n_val": 2368,
+    "n_test": 3947,
+    "L": 3,
+    "bond_dim": 64,
+    "model": "CPD",
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "metrics_log": [
+    {
+      "step": 1,
+      "train_loss": 3928.1007746687865,
+      "train_quality": 0.6181967500175168,
+      "val_loss": 7090.33505077154,
+      "val_quality": 0.29064106205830165,
+      "patience_counter": 0
+    },
+    {
+      "step": 2,
+      "train_loss": 3554.9053250500747,
+      "train_quality": 0.6544705738618435,
+      "val_loss": 6933.418686634835,
+      "val_quality": 0.30633990063400107,
+      "patience_counter": 0
+    },
+    {
+      "step": 3,
+      "train_loss": 3388.9591813693096,
+      "train_quality": 0.6706001949214555,
+      "val_loss": 6952.481601207942,
+      "val_quality": 0.30443273422524564,
+      "patience_counter": 1
+    },
+    {
+      "step": 4,
+      "train_loss": 3297.8678791218326,
+      "train_quality": 0.6794540806128571,
+      "val_loss": 7031.887739822128,
+      "val_quality": 0.296488475773414,
+      "patience_counter": 2
+    },
+    {
+      "step": 5,
+      "train_loss": 3234.153090738296,
+      "train_quality": 0.6856470259246614,
+      "val_loss": 7116.866434458673,
+      "val_quality": 0.28798670594964626,
+      "patience_counter": 3
+    },
+    {
+      "step": 6,
+      "train_loss": 3185.9004996827007,
+      "train_quality": 0.6903370777186243,
+      "val_loss": 7198.341984575086,
+      "val_quality": 0.27983541136554835,
+      "patience_counter": 4
+    },
+    {
+      "step": 7,
+      "train_loss": 3148.4743280166326,
+      "train_quality": 0.6939748239976036,
+      "val_loss": 7265.429903947019,
+      "val_quality": 0.2731235402207265,
+      "patience_counter": 5
+    },
+    {
+      "step": 8,
+      "train_loss": 3118.1356724385837,
+      "train_quality": 0.6969236784095109,
+      "val_loss": 7314.620554010176,
+      "val_quality": 0.26820221745733097,
+      "patience_counter": 6
+    },
+    {
+      "step": 9,
+      "train_loss": 3092.2627126749994,
+      "train_quality": 0.6994384764483252,
+      "val_loss": 7352.418730967171,
+      "val_quality": 0.26442066489735305,
+      "patience_counter": 7
+    },
+    {
+      "step": 10,
+      "train_loss": 3069.4696962018097,
+      "train_quality": 0.7016539103858881,
+      "val_loss": 7383.163467161218,
+      "val_quality": 0.261344780153157,
+      "patience_counter": 8
+    },
+    {
+      "step": 11,
+      "train_loss": 3049.0950502616065,
+      "train_quality": 0.7036342837223812,
+      "val_loss": 7407.842078362789,
+      "val_quality": 0.25887578633178354,
+      "patience_counter": 9
+    },
+    {
+      "step": 12,
+      "train_loss": 3030.7651472057373,
+      "train_quality": 0.7054159122904988,
+      "val_loss": 7427.296327786121,
+      "val_quality": 0.2569294684764819,
+      "patience_counter": 10
+    },
+    {
+      "step": 13,
+      "train_loss": 3014.213325439692,
+      "train_quality": 0.7070247150442774,
+      "val_loss": 7442.990469582197,
+      "val_quality": 0.2553593339656791,
+      "patience_counter": 11
+    },
+    {
+      "step": 14,
+      "train_loss": 2999.2218755143967,
+      "train_quality": 0.7084818528907244,
+      "val_loss": 7456.386161825707,
+      "val_quality": 0.2540191499045866,
+      "patience_counter": 12
+    },
+    {
+      "step": 15,
+      "train_loss": 2985.6040988337086,
+      "train_quality": 0.7098054725462462,
+      "val_loss": 7468.4709619220075,
+      "val_quality": 0.2528101152256659,
+      "patience_counter": 13
+    },
+    {
+      "step": 16,
+      "train_loss": 2973.1990048348175,
+      "train_quality": 0.711011221959718,
+      "val_loss": 7479.683990859562,
+      "val_quality": 0.25168829767525436,
+      "patience_counter": 14
+    },
+    {
+      "step": 17,
+      "train_loss": 2961.8668135878133,
+      "train_quality": 0.7121126874504791,
+      "val_loss": 7490.066671244209,
+      "val_quality": 0.25064955309154957,
+      "patience_counter": 15
+    },
+    {
+      "step": 18,
+      "train_loss": 2951.4830772062933,
+      "train_quality": 0.7131219650950322,
+      "val_loss": 7499.473362667817,
+      "val_quality": 0.24970845219998172,
+      "patience_counter": 16
+    },
+    {
+      "step": 19,
+      "train_loss": 2941.934190750039,
+      "train_quality": 0.7140500970579957,
+      "val_loss": 7507.735872798164,
+      "val_quality": 0.24888182195348052,
+      "patience_counter": 17
+    },
+    {
+      "step": 20,
+      "train_loss": 2933.115856444141,
+      "train_quality": 0.7149072208668186,
+      "val_loss": 7514.752145373422,
+      "val_quality": 0.2481798726624167,
+      "patience_counter": 18
+    },
+    {
+      "step": 21,
+      "train_loss": 2924.933590315487,
+      "train_quality": 0.715702520167765,
+      "val_loss": 7520.518583346028,
+      "val_quality": 0.24760296419664396,
+      "patience_counter": 19
+    },
+    {
+      "step": 22,
+      "train_loss": 2917.303678690206,
+      "train_quality": 0.7164441317563468,
+      "val_loss": 7525.128929917031,
+      "val_quality": 0.24714171793342354,
+      "patience_counter": 20
+    }
+  ],
+  "summary": {
+    "test_quality": 0.34476699549339707,
+    "test_loss": 7576.975513983355,
+    "best_val_quality": 0.30633990063400107,
+    "n_parameters": 5376
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "fold": 4,
+  "seed": 9536,
+  "model": "MPO2",
+  "dataset": "appliances",
+  "params": {
+    "model": "MPO2",
+    "L": 3,
+    "bond_dim": 10,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 28,
+  "n_train": 13420,
+  "n_val": 2368,
+  "n_test": 3947,
+  "train_loss": 3970.9505241037314,
+  "train_quality": 0.6229402072202512,
+  "val_loss": 6328.874668187155,
+  "val_quality": 0.4154158247516101,
+  "test_loss": 6851.995751370601,
+  "test_quality": 0.33237502715498957,
+  "best_epoch": 11,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 28,
+    "b0": 10,
+    "x1": 28,
+    "b1": 10,
+    "x2": 28
+  },
+  "initial_n_parameters": 3360,
+  "final_bond_dims": {
+    "x0": 28,
+    "b0": 10,
+    "x1": 28,
+    "b1": 10,
+    "x2": 28
+  },
+  "final_n_parameters": 3360,
+  "success": true,
+  "singular": false,
+  "run_id": "appliances-MPO2-L3-d10-seed9536-fold4"
+}

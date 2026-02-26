@@ -1,0 +1,227 @@
+{
+  "experiment_name": "kfold_obesity",
+  "run_name": "obesity-CPD-L3-d64-seed9536-fold3",
+  "config": {
+    "params": {
+      "model": "CPD",
+      "L": 3,
+      "bond_dim": 64,
+      "init_strength": 0.1,
+      "bond_prior_alpha": 5.0,
+      "added_bias": true,
+      "n_epochs": 50,
+      "batch_size": 256,
+      "patience": 20,
+      "min_delta": 0.0001,
+      "warmup_epochs": 5,
+      "decay": 1.0
+    },
+    "fold": 3,
+    "seed": 9536
+  },
+  "hparams": {
+    "seed": 9536,
+    "fold": 3,
+    "dataset": "obesity",
+    "n_features": 40,
+    "n_train": 1436,
+    "n_val": 253,
+    "n_test": 422,
+    "L": 3,
+    "bond_dim": 64,
+    "model": "CPD",
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "metrics_log": [
+    {
+      "step": 1,
+      "train_loss": 1.3718174568284074,
+      "train_quality": 0.6462022923583779,
+      "val_loss": 1.56749513187179,
+      "val_quality": 0.5692756312902725,
+      "patience_counter": 0
+    },
+    {
+      "step": 2,
+      "train_loss": 0.6038039340203029,
+      "train_quality": 0.844276330893712,
+      "val_loss": 1.0166344794716797,
+      "val_quality": 0.7206439525868984,
+      "patience_counter": 0
+    },
+    {
+      "step": 3,
+      "train_loss": 0.5285246514626049,
+      "train_quality": 0.8636911863245471,
+      "val_loss": 1.054134969234137,
+      "val_quality": 0.7103393752706346,
+      "patience_counter": 1
+    },
+    {
+      "step": 4,
+      "train_loss": 0.49988863660496086,
+      "train_quality": 0.8710765395012368,
+      "val_loss": 1.0859883364162346,
+      "val_quality": 0.701586543321227,
+      "patience_counter": 2
+    },
+    {
+      "step": 5,
+      "train_loss": 0.4847764246791618,
+      "train_quality": 0.8749740448946317,
+      "val_loss": 1.092616836831155,
+      "val_quality": 0.699765129909053,
+      "patience_counter": 3
+    },
+    {
+      "step": 6,
+      "train_loss": 0.4743327352930828,
+      "train_quality": 0.8776675179552957,
+      "val_loss": 1.0758788488713842,
+      "val_quality": 0.7043644802680136,
+      "patience_counter": 4
+    },
+    {
+      "step": 7,
+      "train_loss": 0.4651992576982631,
+      "train_quality": 0.8800230816782667,
+      "val_loss": 1.0517555927091635,
+      "val_quality": 0.7109931925813258,
+      "patience_counter": 5
+    },
+    {
+      "step": 8,
+      "train_loss": 0.4571362199630023,
+      "train_quality": 0.8821025742909052,
+      "val_loss": 1.0358910355630182,
+      "val_quality": 0.7153525371321909,
+      "patience_counter": 6
+    },
+    {
+      "step": 9,
+      "train_loss": 0.45112850067854143,
+      "train_quality": 0.8836519913072994,
+      "val_loss": 1.027658189906775,
+      "val_quality": 0.7176148007755462,
+      "patience_counter": 7
+    },
+    {
+      "step": 10,
+      "train_loss": 0.44675999363188246,
+      "train_quality": 0.8847786483353398,
+      "val_loss": 1.023326941107218,
+      "val_quality": 0.7188049635817849,
+      "patience_counter": 8
+    },
+    {
+      "step": 11,
+      "train_loss": 0.4433903102358341,
+      "train_quality": 0.8856477043858119,
+      "val_loss": 1.0214836059429138,
+      "val_quality": 0.7193114846923272,
+      "patience_counter": 9
+    },
+    {
+      "step": 12,
+      "train_loss": 0.4407059973466143,
+      "train_quality": 0.8863400003921584,
+      "val_loss": 1.0211984243584045,
+      "val_quality": 0.7193898483538517,
+      "patience_counter": 10
+    },
+    {
+      "step": 13,
+      "train_loss": 0.43859344396576333,
+      "train_quality": 0.8868848371265907,
+      "val_loss": 1.0220682815557542,
+      "val_quality": 0.7191508245224038,
+      "patience_counter": 11
+    },
+    {
+      "step": 14,
+      "train_loss": 0.4369772993811868,
+      "train_quality": 0.8873016478665289,
+      "val_loss": 1.0240650654838845,
+      "val_quality": 0.7186021379718646,
+      "patience_counter": 12
+    },
+    {
+      "step": 15,
+      "train_loss": 0.4357916070296303,
+      "train_quality": 0.8876074430974181,
+      "val_loss": 1.0272407384394149,
+      "val_quality": 0.7177295102353012,
+      "patience_counter": 13
+    },
+    {
+      "step": 16,
+      "train_loss": 0.4349744412042082,
+      "train_quality": 0.8878181937292594,
+      "val_loss": 1.0316334001509182,
+      "val_quality": 0.7165224720734772,
+      "patience_counter": 14
+    },
+    {
+      "step": 17,
+      "train_loss": 0.4341711054651707,
+      "train_quality": 0.8880253775214785,
+      "val_loss": 1.036691653543131,
+      "val_quality": 0.7151325392087204,
+      "patience_counter": 15
+    },
+    {
+      "step": 18,
+      "train_loss": 0.43315517208652005,
+      "train_quality": 0.8882873911725616,
+      "val_loss": 1.040523112138775,
+      "val_quality": 0.714079711323459,
+      "patience_counter": 16
+    },
+    {
+      "step": 19,
+      "train_loss": 0.4322771587265728,
+      "train_quality": 0.8885138346490474,
+      "val_loss": 1.0430163450174577,
+      "val_quality": 0.7133946079787139,
+      "patience_counter": 17
+    },
+    {
+      "step": 20,
+      "train_loss": 0.43150181877215965,
+      "train_quality": 0.8887137982062604,
+      "val_loss": 1.044517450046698,
+      "val_quality": 0.7129821266236271,
+      "patience_counter": 18
+    },
+    {
+      "step": 21,
+      "train_loss": 0.43080668652493637,
+      "train_quality": 0.8888930758458262,
+      "val_loss": 1.0451173286975546,
+      "val_quality": 0.7128172888847794,
+      "patience_counter": 19
+    },
+    {
+      "step": 22,
+      "train_loss": 0.43016912319623085,
+      "train_quality": 0.8890575062101211,
+      "val_loss": 1.0448786157258059,
+      "val_quality": 0.7128828836620572,
+      "patience_counter": 20
+    }
+  ],
+  "summary": {
+    "test_quality": 0.6814830651538135,
+    "test_loss": 1.1636910795880888,
+    "best_val_quality": 0.7206439525868984,
+    "n_parameters": 7680
+  }
+}

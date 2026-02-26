@@ -1,0 +1,52 @@
+{
+  "fold": 4,
+  "seed": 9536,
+  "model": "CPD",
+  "dataset": "ai4i",
+  "params": {
+    "model": "CPD",
+    "L": 4,
+    "bond_dim": 64,
+    "init_strength": 0.01,
+    "bond_prior_alpha": 1.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 10,
+  "n_train": 6800,
+  "n_val": 1200,
+  "n_test": 2000,
+  "train_loss": 0.01606852640576249,
+  "train_quality": 0.5318262087296963,
+  "val_loss": 0.014800397965907233,
+  "val_quality": 0.5178228380749432,
+  "test_loss": 0.019072770554734875,
+  "test_quality": 0.33381288503270645,
+  "best_epoch": 33,
+  "stopped_early": false,
+  "patience_counter": 16,
+  "initial_bond_dims": {
+    "x0": 10,
+    "r": 64,
+    "x1": 10,
+    "x2": 10,
+    "x3": 10
+  },
+  "initial_n_parameters": 2560,
+  "final_bond_dims": {
+    "x0": 10,
+    "r": 64,
+    "x1": 10,
+    "x2": 10,
+    "x3": 10
+  },
+  "final_n_parameters": 2560,
+  "success": true,
+  "singular": false,
+  "run_id": "ai4i-CPD-L4-d64-seed9536-fold4"
+}

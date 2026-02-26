@@ -1,0 +1,52 @@
+{
+  "fold": 1,
+  "seed": 47659,
+  "model": "CPD",
+  "dataset": "energy_efficiency",
+  "params": {
+    "model": "CPD",
+    "L": 4,
+    "bond_dim": 64,
+    "init_strength": 0.01,
+    "bond_prior_alpha": 1.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 9,
+  "n_train": 522,
+  "n_val": 92,
+  "n_test": 154,
+  "train_loss": 0.11446947019946543,
+  "train_quality": 0.9988685045954578,
+  "val_loss": 0.18428013839889268,
+  "val_quality": 0.9980490099529135,
+  "test_loss": 0.23570358372194067,
+  "test_quality": 0.9978273662298511,
+  "best_epoch": 2,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 9,
+    "r": 64,
+    "x1": 9,
+    "x2": 9,
+    "x3": 9
+  },
+  "initial_n_parameters": 2304,
+  "final_bond_dims": {
+    "x0": 9,
+    "r": 64,
+    "x1": 9,
+    "x2": 9,
+    "x3": 9
+  },
+  "final_n_parameters": 2304,
+  "success": true,
+  "singular": false,
+  "run_id": "energy_efficiency-CPD-L4-d64-seed47659-fold1"
+}

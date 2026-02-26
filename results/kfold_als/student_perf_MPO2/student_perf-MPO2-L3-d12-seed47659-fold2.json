@@ -1,0 +1,52 @@
+{
+  "fold": 2,
+  "seed": 47659,
+  "model": "MPO2",
+  "dataset": "student_perf",
+  "params": {
+    "model": "MPO2",
+    "L": 3,
+    "bond_dim": 12,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 51,
+  "n_train": 442,
+  "n_val": 77,
+  "n_test": 130,
+  "train_loss": 0.16038388070177076,
+  "train_quality": 0.9793628933558274,
+  "val_loss": 12.01887209854551,
+  "val_quality": -0.35377238993837157,
+  "test_loss": 13.135891195063717,
+  "test_quality": -1.1665599101798478,
+  "best_epoch": 8,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 51,
+    "b0": 12,
+    "x1": 51,
+    "b1": 12,
+    "x2": 51
+  },
+  "initial_n_parameters": 8568,
+  "final_bond_dims": {
+    "x0": 51,
+    "b0": 12,
+    "x1": 51,
+    "b1": 12,
+    "x2": 51
+  },
+  "final_n_parameters": 8568,
+  "success": true,
+  "singular": false,
+  "run_id": "student_perf-MPO2-L3-d12-seed47659-fold2"
+}

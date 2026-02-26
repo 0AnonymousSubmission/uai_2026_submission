@@ -1,0 +1,52 @@
+{
+  "fold": 1,
+  "seed": 47659,
+  "model": "CPD",
+  "dataset": "bike",
+  "params": {
+    "model": "CPD",
+    "L": 4,
+    "bond_dim": 64,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 13,
+  "n_train": 11818,
+  "n_val": 2085,
+  "n_test": 3476,
+  "train_loss": 9229.183010285315,
+  "train_quality": 0.7155773287196756,
+  "val_loss": 12394.385967680524,
+  "val_quality": 0.6564798696383374,
+  "test_loss": 11359.861635416377,
+  "test_quality": 0.6652204072128707,
+  "best_epoch": 1,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 13,
+    "r": 64,
+    "x1": 13,
+    "x2": 13,
+    "x3": 13
+  },
+  "initial_n_parameters": 3328,
+  "final_bond_dims": {
+    "x0": 13,
+    "r": 64,
+    "x1": 13,
+    "x2": 13,
+    "x3": 13
+  },
+  "final_n_parameters": 3328,
+  "success": true,
+  "singular": false,
+  "run_id": "bike-CPD-L4-d64-seed47659-fold1"
+}

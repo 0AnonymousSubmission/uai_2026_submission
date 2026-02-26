@@ -1,0 +1,52 @@
+{
+  "fold": 3,
+  "seed": 9536,
+  "model": "MPO2",
+  "dataset": "abalone",
+  "params": {
+    "model": "MPO2",
+    "L": 3,
+    "bond_dim": 14,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 12,
+  "n_train": 2841,
+  "n_val": 501,
+  "n_test": 835,
+  "train_loss": 4.055293454991254,
+  "train_quality": 0.6082773700069555,
+  "val_loss": 4.1072487725855105,
+  "val_quality": 0.5956131319645486,
+  "test_loss": 5.833214266338045,
+  "test_quality": 0.45030733159383163,
+  "best_epoch": 39,
+  "stopped_early": false,
+  "patience_counter": 10,
+  "initial_bond_dims": {
+    "x0": 12,
+    "b0": 14,
+    "x1": 12,
+    "b1": 14,
+    "x2": 12
+  },
+  "initial_n_parameters": 2688,
+  "final_bond_dims": {
+    "x0": 12,
+    "b0": 14,
+    "x1": 12,
+    "b1": 14,
+    "x2": 12
+  },
+  "final_n_parameters": 2688,
+  "success": true,
+  "singular": false,
+  "run_id": "abalone-MPO2-L3-d14-seed9536-fold3"
+}

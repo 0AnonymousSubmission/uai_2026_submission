@@ -1,0 +1,52 @@
+{
+  "fold": 0,
+  "seed": 42,
+  "model": "MPO2",
+  "dataset": "abalone",
+  "params": {
+    "model": "MPO2",
+    "L": 3,
+    "bond_dim": 14,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 12,
+  "n_train": 2840,
+  "n_val": 501,
+  "n_test": 836,
+  "train_loss": 4.255503509412381,
+  "train_quality": 0.5978023592779567,
+  "val_loss": 3.204603970667958,
+  "val_quality": 0.625999795985263,
+  "test_loss": 4.518814610466737,
+  "test_quality": 0.5825656415488062,
+  "best_epoch": 1,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 12,
+    "b0": 14,
+    "x1": 12,
+    "b1": 14,
+    "x2": 12
+  },
+  "initial_n_parameters": 2688,
+  "final_bond_dims": {
+    "x0": 12,
+    "b0": 14,
+    "x1": 12,
+    "b1": 14,
+    "x2": 12
+  },
+  "final_n_parameters": 2688,
+  "success": true,
+  "singular": false,
+  "run_id": "abalone-MPO2-L3-d14-seed42-fold0"
+}

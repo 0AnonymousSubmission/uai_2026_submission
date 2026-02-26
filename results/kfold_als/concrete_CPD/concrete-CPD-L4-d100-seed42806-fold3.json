@@ -1,0 +1,52 @@
+{
+  "fold": 3,
+  "seed": 42806,
+  "model": "CPD",
+  "dataset": "concrete",
+  "params": {
+    "model": "CPD",
+    "L": 4,
+    "bond_dim": 100,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 9,
+  "n_train": 701,
+  "n_val": 123,
+  "n_test": 206,
+  "train_loss": 9.332183920603864,
+  "train_quality": 0.9660075804302407,
+  "val_loss": 71.30452666912375,
+  "val_quality": 0.8335125449995074,
+  "test_loss": 36.91669322982441,
+  "test_quality": 0.871854596551217,
+  "best_epoch": 0,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 9,
+    "r": 100,
+    "x1": 9,
+    "x2": 9,
+    "x3": 9
+  },
+  "initial_n_parameters": 3600,
+  "final_bond_dims": {
+    "x0": 9,
+    "r": 100,
+    "x1": 9,
+    "x2": 9,
+    "x3": 9
+  },
+  "final_n_parameters": 3600,
+  "success": true,
+  "singular": false,
+  "run_id": "concrete-CPD-L4-d100-seed42806-fold3"
+}

@@ -1,0 +1,52 @@
+{
+  "fold": 3,
+  "seed": 19540,
+  "model": "MPO2",
+  "dataset": "seoulBike",
+  "params": {
+    "model": "MPO2",
+    "L": 3,
+    "bond_dim": 12,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 18,
+  "n_train": 5957,
+  "n_val": 1051,
+  "n_test": 1752,
+  "train_loss": 104964.21431992305,
+  "train_quality": 0.7517230666063943,
+  "val_loss": 245576.78202085337,
+  "val_quality": 0.37179413072734624,
+  "test_loss": 137511.8578693032,
+  "test_quality": 0.664438224736914,
+  "best_epoch": 25,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 18,
+    "b0": 12,
+    "x1": 18,
+    "b1": 12,
+    "x2": 18
+  },
+  "initial_n_parameters": 3024,
+  "final_bond_dims": {
+    "x0": 18,
+    "b0": 12,
+    "x1": 18,
+    "b1": 12,
+    "x2": 18
+  },
+  "final_n_parameters": 3024,
+  "success": true,
+  "singular": false,
+  "run_id": "seoulBike-MPO2-L3-d12-seed19540-fold3"
+}

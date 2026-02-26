@@ -1,0 +1,50 @@
+{
+  "fold": 4,
+  "seed": 19540,
+  "model": "CPD",
+  "dataset": "student_perf",
+  "params": {
+    "model": "CPD",
+    "L": 3,
+    "bond_dim": 64,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 51,
+  "n_train": 442,
+  "n_val": 78,
+  "n_test": 129,
+  "train_loss": 0.20651064234974748,
+  "train_quality": 0.9704801747771887,
+  "val_loss": 10.468441044611591,
+  "val_quality": 0.25758193564821263,
+  "test_loss": 7.039849392656399,
+  "test_quality": 0.1740334916649381,
+  "best_epoch": 0,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 51,
+    "r": 64,
+    "x1": 51,
+    "x2": 51
+  },
+  "initial_n_parameters": 9792,
+  "final_bond_dims": {
+    "x0": 51,
+    "r": 64,
+    "x1": 51,
+    "x2": 51
+  },
+  "final_n_parameters": 9792,
+  "success": true,
+  "singular": false,
+  "run_id": "student_perf-CPD-L3-d64-seed19540-fold4"
+}

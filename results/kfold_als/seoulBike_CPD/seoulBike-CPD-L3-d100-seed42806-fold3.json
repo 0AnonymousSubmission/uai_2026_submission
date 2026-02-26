@@ -1,0 +1,50 @@
+{
+  "fold": 3,
+  "seed": 42806,
+  "model": "CPD",
+  "dataset": "seoulBike",
+  "params": {
+    "model": "CPD",
+    "L": 3,
+    "bond_dim": 100,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": false,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 17,
+  "n_train": 5957,
+  "n_val": 1051,
+  "n_test": 1752,
+  "train_loss": 106664.0982059643,
+  "train_quality": 0.7412957421287028,
+  "val_loss": 230681.25527997743,
+  "val_quality": 0.44656249466243847,
+  "test_loss": 395251.6720395189,
+  "test_quality": 0.07643120674703119,
+  "best_epoch": 39,
+  "stopped_early": false,
+  "patience_counter": 10,
+  "initial_bond_dims": {
+    "x0": 17,
+    "r": 100,
+    "x1": 17,
+    "x2": 17
+  },
+  "initial_n_parameters": 5100,
+  "final_bond_dims": {
+    "x0": 17,
+    "r": 100,
+    "x1": 17,
+    "x2": 17
+  },
+  "final_n_parameters": 5100,
+  "success": true,
+  "singular": false,
+  "run_id": "seoulBike-CPD-L3-d100-seed42806-fold3"
+}

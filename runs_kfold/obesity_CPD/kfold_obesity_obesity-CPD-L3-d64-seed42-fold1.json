@@ -1,0 +1,227 @@
+{
+  "experiment_name": "kfold_obesity",
+  "run_name": "obesity-CPD-L3-d64-seed42-fold1",
+  "config": {
+    "params": {
+      "model": "CPD",
+      "L": 3,
+      "bond_dim": 64,
+      "init_strength": 0.1,
+      "bond_prior_alpha": 5.0,
+      "added_bias": true,
+      "n_epochs": 50,
+      "batch_size": 256,
+      "patience": 20,
+      "min_delta": 0.0001,
+      "warmup_epochs": 5,
+      "decay": 1.0
+    },
+    "fold": 1,
+    "seed": 42
+  },
+  "hparams": {
+    "seed": 42,
+    "fold": 1,
+    "dataset": "obesity",
+    "n_features": 40,
+    "n_train": 1436,
+    "n_val": 253,
+    "n_test": 422,
+    "L": 3,
+    "bond_dim": 64,
+    "model": "CPD",
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "metrics_log": [
+    {
+      "step": 1,
+      "train_loss": 1.3868286963242673,
+      "train_quality": 0.6374099402952723,
+      "val_loss": 1.7979707679244294,
+      "val_quality": 0.5118248685712082,
+      "patience_counter": 0
+    },
+    {
+      "step": 2,
+      "train_loss": 0.5847453856604233,
+      "train_quality": 0.847116760086783,
+      "val_loss": 1.467704978578469,
+      "val_quality": 0.6014968187478612,
+      "patience_counter": 0
+    },
+    {
+      "step": 3,
+      "train_loss": 0.5097591756491274,
+      "train_quality": 0.8667221045947897,
+      "val_loss": 1.552708609251977,
+      "val_quality": 0.5784171005921162,
+      "patience_counter": 1
+    },
+    {
+      "step": 4,
+      "train_loss": 0.4761872007033414,
+      "train_quality": 0.8754995869415726,
+      "val_loss": 1.641190245831171,
+      "val_quality": 0.5543930534069964,
+      "patience_counter": 2
+    },
+    {
+      "step": 5,
+      "train_loss": 0.45801605673082224,
+      "train_quality": 0.8802504809743842,
+      "val_loss": 1.6737881928330465,
+      "val_quality": 0.5455422381735986,
+      "patience_counter": 3
+    },
+    {
+      "step": 6,
+      "train_loss": 0.4483324737621607,
+      "train_quality": 0.8827822795563351,
+      "val_loss": 1.683374046032266,
+      "val_quality": 0.5429395400492081,
+      "patience_counter": 4
+    },
+    {
+      "step": 7,
+      "train_loss": 0.4425811187478335,
+      "train_quality": 0.8842859866569708,
+      "val_loss": 1.700192803712857,
+      "val_quality": 0.5383730034916255,
+      "patience_counter": 5
+    },
+    {
+      "step": 8,
+      "train_loss": 0.43823187619749293,
+      "train_quality": 0.8854231077161023,
+      "val_loss": 1.705813872403003,
+      "val_quality": 0.5368468018450048,
+      "patience_counter": 6
+    },
+    {
+      "step": 9,
+      "train_loss": 0.43492734077492706,
+      "train_quality": 0.8862870873116647,
+      "val_loss": 1.6942382788900385,
+      "val_quality": 0.5399897433128915,
+      "patience_counter": 7
+    },
+    {
+      "step": 10,
+      "train_loss": 0.43287813061233854,
+      "train_quality": 0.8868228587715212,
+      "val_loss": 1.6766856428061332,
+      "val_quality": 0.5447555384971334,
+      "patience_counter": 8
+    },
+    {
+      "step": 11,
+      "train_loss": 0.4310473909321303,
+      "train_quality": 0.887301510541354,
+      "val_loss": 1.6717334141379807,
+      "val_quality": 0.5461001403805843,
+      "patience_counter": 9
+    },
+    {
+      "step": 12,
+      "train_loss": 0.4298358748683016,
+      "train_quality": 0.887618264645939,
+      "val_loss": 1.6618530150125725,
+      "val_quality": 0.5487828119944188,
+      "patience_counter": 10
+    },
+    {
+      "step": 13,
+      "train_loss": 0.429002998894181,
+      "train_quality": 0.8878360222896793,
+      "val_loss": 1.6470981553272186,
+      "val_quality": 0.5527889703228026,
+      "patience_counter": 11
+    },
+    {
+      "step": 14,
+      "train_loss": 0.4282703695918487,
+      "train_quality": 0.8880275701738398,
+      "val_loss": 1.632033180230759,
+      "val_quality": 0.55687932948152,
+      "patience_counter": 12
+    },
+    {
+      "step": 15,
+      "train_loss": 0.42766172656837914,
+      "train_quality": 0.8881867015148653,
+      "val_loss": 1.6184282139539818,
+      "val_quality": 0.5605732750777084,
+      "patience_counter": 13
+    },
+    {
+      "step": 16,
+      "train_loss": 0.42718087157603185,
+      "train_quality": 0.8883124223344926,
+      "val_loss": 1.6078509375103243,
+      "val_quality": 0.5634451589871459,
+      "patience_counter": 14
+    },
+    {
+      "step": 17,
+      "train_loss": 0.42680623221080344,
+      "train_quality": 0.8884103727952567,
+      "val_loss": 1.6012442956992272,
+      "val_quality": 0.5652389580254686,
+      "patience_counter": 15
+    },
+    {
+      "step": 18,
+      "train_loss": 0.4265190574362181,
+      "train_quality": 0.8884854554056314,
+      "val_loss": 1.5988046624756194,
+      "val_quality": 0.5659013538167793,
+      "patience_counter": 16
+    },
+    {
+      "step": 19,
+      "train_loss": 0.4263117294588877,
+      "train_quality": 0.8885396618580058,
+      "val_loss": 1.5999303487417011,
+      "val_quality": 0.5655957136747394,
+      "patience_counter": 17
+    },
+    {
+      "step": 20,
+      "train_loss": 0.42588603482637377,
+      "train_quality": 0.8886509608545065,
+      "val_loss": 1.5988737747956239,
+      "val_quality": 0.5658825888198709,
+      "patience_counter": 18
+    },
+    {
+      "step": 21,
+      "train_loss": 0.42530532987554076,
+      "train_quality": 0.888802787711963,
+      "val_loss": 1.5907412841912645,
+      "val_quality": 0.5680906779281324,
+      "patience_counter": 19
+    },
+    {
+      "step": 22,
+      "train_loss": 0.425133813780848,
+      "train_quality": 0.8888476310521533,
+      "val_loss": 1.5817642063488233,
+      "val_quality": 0.5705280847168085,
+      "patience_counter": 20
+    }
+  ],
+  "summary": {
+    "test_quality": 0.6839080806210698,
+    "test_loss": 1.1932219687239953,
+    "best_val_quality": 0.6014968187478612,
+    "n_parameters": 7680
+  }
+}

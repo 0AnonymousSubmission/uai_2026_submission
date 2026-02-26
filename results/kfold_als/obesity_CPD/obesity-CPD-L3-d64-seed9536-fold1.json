@@ -1,0 +1,50 @@
+{
+  "fold": 1,
+  "seed": 9536,
+  "model": "CPD",
+  "dataset": "obesity",
+  "params": {
+    "model": "CPD",
+    "L": 3,
+    "bond_dim": 64,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 40,
+  "n_train": 1436,
+  "n_val": 253,
+  "n_test": 422,
+  "train_loss": 0.42675888893798963,
+  "train_quality": 0.8883893967196693,
+  "val_loss": 1.158761414169004,
+  "val_quality": 0.7218869221560891,
+  "test_loss": 1.2357953843181493,
+  "test_quality": 0.6656918564290297,
+  "best_epoch": 2,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 40,
+    "r": 64,
+    "x1": 40,
+    "x2": 40
+  },
+  "initial_n_parameters": 7680,
+  "final_bond_dims": {
+    "x0": 40,
+    "r": 64,
+    "x1": 40,
+    "x2": 40
+  },
+  "final_n_parameters": 7680,
+  "success": true,
+  "singular": false,
+  "run_id": "obesity-CPD-L3-d64-seed9536-fold1"
+}

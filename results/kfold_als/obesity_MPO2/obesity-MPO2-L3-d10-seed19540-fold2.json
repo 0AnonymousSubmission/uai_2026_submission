@@ -1,0 +1,52 @@
+{
+  "fold": 2,
+  "seed": 19540,
+  "model": "MPO2",
+  "dataset": "obesity",
+  "params": {
+    "model": "MPO2",
+    "L": 3,
+    "bond_dim": 10,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": false,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 39,
+  "n_train": 1436,
+  "n_val": 253,
+  "n_test": 422,
+  "train_loss": 0.37663526400797953,
+  "train_quality": 0.9008221629712768,
+  "val_loss": 0.8513135953465941,
+  "val_quality": 0.7755473310387607,
+  "test_loss": 1.6539155825619365,
+  "test_quality": 0.5695002095891677,
+  "best_epoch": 9,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 39,
+    "b0": 10,
+    "x1": 39,
+    "b1": 10,
+    "x2": 39
+  },
+  "initial_n_parameters": 4680,
+  "final_bond_dims": {
+    "x0": 39,
+    "b0": 10,
+    "x1": 39,
+    "b1": 10,
+    "x2": 39
+  },
+  "final_n_parameters": 4680,
+  "success": true,
+  "singular": false,
+  "run_id": "obesity-MPO2-L3-d10-seed19540-fold2"
+}

@@ -1,0 +1,50 @@
+{
+  "fold": 1,
+  "seed": 47659,
+  "model": "CPD",
+  "dataset": "realstate",
+  "params": {
+    "model": "CPD",
+    "L": 3,
+    "bond_dim": 100,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 7,
+  "n_train": 282,
+  "n_val": 49,
+  "n_test": 83,
+  "train_loss": 35.829168690575656,
+  "train_quality": 0.810474380005201,
+  "val_loss": 62.417795750897895,
+  "val_quality": 0.6571236529975523,
+  "test_loss": 85.6813632441149,
+  "test_quality": 0.5401704021441006,
+  "best_epoch": 0,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 7,
+    "r": 100,
+    "x1": 7,
+    "x2": 7
+  },
+  "initial_n_parameters": 2100,
+  "final_bond_dims": {
+    "x0": 7,
+    "r": 100,
+    "x1": 7,
+    "x2": 7
+  },
+  "final_n_parameters": 2100,
+  "success": true,
+  "singular": false,
+  "run_id": "realstate-CPD-L3-d100-seed47659-fold1"
+}

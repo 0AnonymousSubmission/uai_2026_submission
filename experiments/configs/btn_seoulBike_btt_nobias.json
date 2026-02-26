@@ -1,0 +1,55 @@
+{
+  "experiment_name": "btn_seoulBike",
+  "dataset": "seoulBike",
+  "task": "regression",
+  "parameter_grid": {
+    "model": [
+      "BTT"
+    ],
+    "L": [
+      3,
+      4
+    ],
+    "bond_dim": [
+      18
+    ],
+    "trimming_threshold": [
+      0.9,
+      0.95,
+      0.99
+    ],
+    "trim_method": [
+      "relevance",
+      "soft_relevance"
+    ]
+  },
+  "fixed_params": {
+    "batch_size": 256,
+    "n_epochs": 53,
+    "patience": 100,
+    "min_delta": 0.0001,
+    "soft_trim_relaxation": 1,
+    "trim_every": 6,
+    "init_strength": 0.01,
+    "seeds": [
+      42,
+      7,
+      123,
+      256,
+      999
+    ],
+    "warmup_epochs": 5,
+    "bond_prior_alpha": 1.0,
+    "added_bias": false
+  },
+  "tracker": {
+    "backend": "file",
+    "tracker_dir": "runs_init0.01_prior1.0_nobias",
+    "aim_repo": ""
+  },
+  "output": {
+    "results_dir": "results_init0.01_prior1.0/btn_seoulBike_BTT_nobias",
+    "save_models": false,
+    "save_individual_runs": true
+  }
+}

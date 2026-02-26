@@ -1,0 +1,227 @@
+{
+  "experiment_name": "kfold_realstate",
+  "run_name": "realstate-BTT-L4-d12-seed9536-fold3",
+  "config": {
+    "params": {
+      "model": "BTT",
+      "L": 4,
+      "bond_dim": 12,
+      "init_strength": 0.1,
+      "bond_prior_alpha": 5.0,
+      "added_bias": true,
+      "n_epochs": 50,
+      "batch_size": 256,
+      "patience": 20,
+      "min_delta": 0.0001,
+      "warmup_epochs": 5,
+      "decay": 1.0
+    },
+    "fold": 3,
+    "seed": 9536
+  },
+  "hparams": {
+    "seed": 9536,
+    "fold": 3,
+    "dataset": "realstate",
+    "n_features": 7,
+    "n_train": 282,
+    "n_val": 49,
+    "n_test": 83,
+    "L": 4,
+    "bond_dim": 12,
+    "model": "BTT",
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "metrics_log": [
+    {
+      "step": 1,
+      "train_loss": 28.96286312496962,
+      "train_quality": 0.8494757040928869,
+      "val_loss": 6728.667229084617,
+      "val_quality": -40.72086374780182,
+      "patience_counter": 0
+    },
+    {
+      "step": 2,
+      "train_loss": 26.838118851319596,
+      "train_quality": 0.8605183152599476,
+      "val_loss": 6165.0698442351095,
+      "val_quality": -37.226298048329326,
+      "patience_counter": 0
+    },
+    {
+      "step": 3,
+      "train_loss": 25.181461263757605,
+      "train_quality": 0.8691282104851181,
+      "val_loss": 8872.644824620555,
+      "val_quality": -54.014521183416065,
+      "patience_counter": 1
+    },
+    {
+      "step": 4,
+      "train_loss": 23.358804070492308,
+      "train_quality": 0.8786008302849116,
+      "val_loss": 13858.322761444675,
+      "val_quality": -84.92804132207785,
+      "patience_counter": 2
+    },
+    {
+      "step": 5,
+      "train_loss": 21.815645004953584,
+      "train_quality": 0.8866208568551659,
+      "val_loss": 19384.341980702942,
+      "val_quality": -119.19192851772578,
+      "patience_counter": 3
+    },
+    {
+      "step": 6,
+      "train_loss": 20.8479497518932,
+      "train_quality": 0.891650112629744,
+      "val_loss": 23208.68113236701,
+      "val_quality": -142.90460849427248,
+      "patience_counter": 4
+    },
+    {
+      "step": 7,
+      "train_loss": 20.180918152610534,
+      "train_quality": 0.8951167747962775,
+      "val_loss": 26726.899440430883,
+      "val_quality": -164.71919698087285,
+      "patience_counter": 5
+    },
+    {
+      "step": 8,
+      "train_loss": 19.654648722784763,
+      "train_quality": 0.897851875087991,
+      "val_loss": 30229.94729658172,
+      "val_quality": -186.4397216156423,
+      "patience_counter": 6
+    },
+    {
+      "step": 9,
+      "train_loss": 19.20429693342307,
+      "train_quality": 0.9001924201408638,
+      "val_loss": 33136.165034966776,
+      "val_quality": -204.45962216303536,
+      "patience_counter": 7
+    },
+    {
+      "step": 10,
+      "train_loss": 18.81590342089566,
+      "train_quality": 0.9022109588383613,
+      "val_loss": 35089.946217170014,
+      "val_quality": -216.5739734484399,
+      "patience_counter": 8
+    },
+    {
+      "step": 11,
+      "train_loss": 18.47946751585544,
+      "train_quality": 0.903959466142544,
+      "val_loss": 36550.02674720521,
+      "val_quality": -225.62715125921176,
+      "patience_counter": 9
+    },
+    {
+      "step": 12,
+      "train_loss": 18.188630762858654,
+      "train_quality": 0.9054709878895432,
+      "val_loss": 37940.14310023189,
+      "val_quality": -234.24651865897354,
+      "patience_counter": 10
+    },
+    {
+      "step": 13,
+      "train_loss": 17.92856673450026,
+      "train_quality": 0.9068225792218817,
+      "val_loss": 39487.13056929362,
+      "val_quality": -243.83855987886034,
+      "patience_counter": 11
+    },
+    {
+      "step": 14,
+      "train_loss": 17.690740654080773,
+      "train_quality": 0.9080585966400847,
+      "val_loss": 41112.39099135112,
+      "val_quality": -253.9159297821095,
+      "patience_counter": 12
+    },
+    {
+      "step": 15,
+      "train_loss": 17.473775995665385,
+      "train_quality": 0.9091861941536242,
+      "val_loss": 42604.358018987165,
+      "val_quality": -263.16681869621084,
+      "patience_counter": 13
+    },
+    {
+      "step": 16,
+      "train_loss": 17.275416207564614,
+      "train_quality": 0.9102170993963594,
+      "val_loss": 43942.5285340358,
+      "val_quality": -271.46409776038377,
+      "patience_counter": 14
+    },
+    {
+      "step": 17,
+      "train_loss": 17.093844907409522,
+      "train_quality": 0.9111607523768972,
+      "val_loss": 45128.23404662781,
+      "val_quality": -278.8160229562146,
+      "patience_counter": 15
+    },
+    {
+      "step": 18,
+      "train_loss": 16.927032660637902,
+      "train_quality": 0.9120277003676963,
+      "val_loss": 46095.204678866765,
+      "val_quality": -284.8116902439927,
+      "patience_counter": 16
+    },
+    {
+      "step": 19,
+      "train_loss": 16.77249837879458,
+      "train_quality": 0.912830837953494,
+      "val_loss": 46856.01877656357,
+      "val_quality": -289.5290912131195,
+      "patience_counter": 17
+    },
+    {
+      "step": 20,
+      "train_loss": 16.627507923102826,
+      "train_quality": 0.9135843748590853,
+      "val_loss": 47458.465999640764,
+      "val_quality": -293.26454396379216,
+      "patience_counter": 18
+    },
+    {
+      "step": 21,
+      "train_loss": 16.48898887195115,
+      "train_quality": 0.9143042789153369,
+      "val_loss": 47941.77164196839,
+      "val_quality": -296.26126354667423,
+      "patience_counter": 19
+    },
+    {
+      "step": 22,
+      "train_loss": 16.356399873652986,
+      "train_quality": 0.9149933636072662,
+      "val_loss": 48316.82863169429,
+      "val_quality": -298.58679117841353,
+      "patience_counter": 20
+    }
+  ],
+  "summary": {
+    "test_quality": 0.320031237846197,
+    "test_loss": 114.64604381622824,
+    "best_val_quality": -37.226298048329326,
+    "n_parameters": 3936
+  }
+}

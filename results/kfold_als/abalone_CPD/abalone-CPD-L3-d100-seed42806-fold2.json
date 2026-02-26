@@ -1,0 +1,50 @@
+{
+  "fold": 2,
+  "seed": 42806,
+  "model": "CPD",
+  "dataset": "abalone",
+  "params": {
+    "model": "CPD",
+    "L": 3,
+    "bond_dim": 100,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 12,
+  "n_train": 2841,
+  "n_val": 501,
+  "n_test": 835,
+  "train_loss": 4.082156801113071,
+  "train_quality": 0.6140950461175312,
+  "val_loss": 3.4857296341964754,
+  "val_quality": 0.5954912489058641,
+  "test_loss": 4.856388660892449,
+  "test_quality": 0.5518253169932366,
+  "best_epoch": 11,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 12,
+    "r": 100,
+    "x1": 12,
+    "x2": 12
+  },
+  "initial_n_parameters": 3600,
+  "final_bond_dims": {
+    "x0": 12,
+    "r": 100,
+    "x1": 12,
+    "x2": 12
+  },
+  "final_n_parameters": 3600,
+  "success": true,
+  "singular": false,
+  "run_id": "abalone-CPD-L3-d100-seed42806-fold2"
+}

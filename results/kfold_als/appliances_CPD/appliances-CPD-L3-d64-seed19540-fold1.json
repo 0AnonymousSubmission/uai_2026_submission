@@ -1,0 +1,50 @@
+{
+  "fold": 1,
+  "seed": 19540,
+  "model": "CPD",
+  "dataset": "appliances",
+  "params": {
+    "model": "CPD",
+    "L": 3,
+    "bond_dim": 64,
+    "init_strength": 0.1,
+    "bond_prior_alpha": 5.0,
+    "added_bias": true,
+    "n_epochs": 50,
+    "batch_size": 256,
+    "patience": 20,
+    "min_delta": 0.0001,
+    "warmup_epochs": 5,
+    "decay": 1.0
+  },
+  "n_features": 28,
+  "n_train": 13420,
+  "n_val": 2368,
+  "n_test": 3947,
+  "train_loss": 3034.657581879442,
+  "train_quality": 0.713157173294114,
+  "val_loss": 8297.076283050439,
+  "val_quality": 0.31170534699782937,
+  "test_loss": 7378.617016965038,
+  "test_quality": 0.307858467471432,
+  "best_epoch": 0,
+  "stopped_early": true,
+  "patience_counter": 20,
+  "initial_bond_dims": {
+    "x0": 28,
+    "r": 64,
+    "x1": 28,
+    "x2": 28
+  },
+  "initial_n_parameters": 5376,
+  "final_bond_dims": {
+    "x0": 28,
+    "r": 64,
+    "x1": 28,
+    "x2": 28
+  },
+  "final_n_parameters": 5376,
+  "success": true,
+  "singular": false,
+  "run_id": "appliances-CPD-L3-d64-seed19540-fold1"
+}
